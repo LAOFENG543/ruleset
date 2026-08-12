@@ -1,0 +1,22 @@
+{
+  "version": 2,
+  "rules": [
+    {
+      "domain": [
+        "komari.laofengemby.cc.cd"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "img.yichkp.com",
+        "gemini.google.com",
+        "aistudio.google.com",
+        "generativelanguage.googleapis.com",
+        "accounts.google.com",
+        "gstatic.com",
+        "googleapis.com",
+        "googleusercontent.com"
+      ]
+    }
+  ]
+}
