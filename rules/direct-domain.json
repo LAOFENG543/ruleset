@@ -1,0 +1,44 @@
+{
+  "version": 2,
+  "rules": [
+    {
+      "domain_keyword": [
+        "60256666",
+        "hk-api.gptbest",
+        "fandai",
+        "emby-cm",
+        "media.emos",
+        "gy.emby",
+        "mygcm",
+        "qyneimeng",
+        "66990000",
+        "wangjunqiang",
+        "danmu",
+        "liuuu",
+        "yusen",
+        "yx.emby-cm.ccwu.cc",
+        "xiaohei10",
+        "gddns",
+        "yusen6",
+        "fandai.cc.cd"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "fandai.602568.xyz",
+        "v2go.cc.cd",
+        "emby.yun",
+        "emby-cm.hohai",
+        "28.al",
+        "laofengemby.cc.cd",
+        "cmecloud.cn",
+        "emos.033388.xyz",
+        "88920.dpdns.org",
+        "emby.beip.kdns.fr",
+        "ea.eoos.top",
+        "danmu.tty.mom",
+        "emby.taotu.ink"
+      ]
+    }
+  ]
+}
