@@ -1,0 +1,41 @@
+{
+  "version": 2,
+  "rules": [
+    {
+      "domain_keyword": [
+        "19991998",
+        "lilyemby"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "bangumi.ca",
+        "feiyue.lol",
+        "qzz.io",
+        "emby.ichinosekotomi.com",
+        "liminalnet.com",
+        "xmsl.org",
+        "lyezi.cc",
+        "okemby.org",
+        "p3mc4.mobaiemby.site",
+        "test.inemby.us.ci",
+        "syemby.com",
+        "lite.cn2gias.uk",
+        "bb.111848.xyz",
+        "file.covh.eu.org",
+        "cf.aixj.de",
+        "emby.medi4.org",
+        "gy.meowfly.de",
+        "ccdv.cc.cd",
+        "fastboostcdn.com",
+        "emby.teawaya.com",
+        "115.hohai.eu.org",
+        "nay.007.us.kg",
+        "us.aemby.de",
+        "test.28.al",
+        "bb.emby.edu.kg",
+        "emby.di0.uk"
+      ]
+    }
+  ]
+}
