@@ -1,0 +1,73 @@
+# 合并分流规则集（classical 模式，需 Mihomo/Clash.Meta 内核）
+# 规则按顺序匹配，命中即用行内策略组
+payload:
+  - DOMAIN,komari.laofengemby.cc.cd,🚀 手动选择
+  - DOMAIN-SUFFIX,img.yichkp.com,🚀 手动选择
+  - DOMAIN-KEYWORD,60256666,DIRECT
+  - DOMAIN-KEYWORD,hk-api.gptbest,DIRECT
+  - DOMAIN-SUFFIX,fandai.602568.xyz,DIRECT
+  - IP-CIDR,107.181.228.245/32,DIRECT
+  - DOMAIN-KEYWORD,fandai,DIRECT
+  - DOMAIN-SUFFIX,v2go.cc.cd,DIRECT
+  - DOMAIN-KEYWORD,emby-cm,DIRECT
+  - DOMAIN-KEYWORD,media.emos,DIRECT
+  - DOMAIN-KEYWORD,gy.emby,DIRECT
+  - DOMAIN-KEYWORD,mygcm,DIRECT
+  - DOMAIN-SUFFIX,emby.yun,DIRECT
+  - DOMAIN-SUFFIX,emby-cm.hohai,DIRECT
+  - DOMAIN-KEYWORD,qyneimeng,DIRECT
+  - DOMAIN-KEYWORD,66990000,DIRECT
+  - DOMAIN-SUFFIX,28.al,DIRECT
+  - DOMAIN-KEYWORD,wangjunqiang,DIRECT
+  - DOMAIN-KEYWORD,danmu,DIRECT
+  - DOMAIN-KEYWORD,liuuu,DIRECT
+  - DOMAIN-SUFFIX,laofengemby.cc.cd,DIRECT
+  - DOMAIN-KEYWORD,19991998,🎥 Emby
+  - DOMAIN-KEYWORD,yusen,DIRECT
+  - IP-CIDR,51.83.100.187/32,DIRECT
+  - DOMAIN-SUFFIX,cmecloud.cn,DIRECT
+  - DOMAIN-SUFFIX,emos.033388.xyz,DIRECT
+  - DOMAIN-SUFFIX,bangumi.ca,🎥 Emby
+  - DOMAIN-SUFFIX,feiyue.lol,🎥 Emby
+  - DOMAIN-SUFFIX,qzz.io,🎥 Emby
+  - DOMAIN-SUFFIX,emby.ichinosekotomi.com,🎥 Emby
+  - DOMAIN-SUFFIX,liminalnet.com,🎥 Emby
+  - DOMAIN-SUFFIX,xmsl.org,🎥 Emby
+  - DOMAIN-SUFFIX,lyezi.cc,🎥 Emby
+  - DOMAIN-SUFFIX,okemby.org,🎥 Emby
+  - DOMAIN-SUFFIX,p3mc4.mobaiemby.site,🎥 Emby
+  - DOMAIN-SUFFIX,test.inemby.us.ci,🎥 Emby
+  - DOMAIN-SUFFIX,syemby.com,🎥 Emby
+  - DOMAIN-SUFFIX,lite.cn2gias.uk,🎥 Emby
+  - DOMAIN-SUFFIX,bb.111848.xyz,🎥 Emby
+  - DOMAIN-SUFFIX,file.covh.eu.org,🎥 Emby
+  - DOMAIN-SUFFIX,cf.aixj.de,🎥 Emby
+  - DOMAIN-SUFFIX,88920.dpdns.org,DIRECT
+  - DOMAIN-SUFFIX,emby.medi4.org,🎥 Emby
+  - DOMAIN-SUFFIX,gy.meowfly.de,🎥 Emby
+  - DOMAIN-SUFFIX,ccdv.cc.cd,🎥 Emby
+  - DOMAIN-SUFFIX,emby.beip.kdns.fr,DIRECT
+  - DOMAIN-KEYWORD,lilyemby,🎥 Emby
+  - DOMAIN-SUFFIX,fastboostcdn.com,🎥 Emby
+  - DOMAIN-KEYWORD,yx.emby-cm.ccwu.cc,DIRECT
+  - DOMAIN-SUFFIX,ea.eoos.top,DIRECT
+  - DOMAIN-KEYWORD,xiaohei10,DIRECT
+  - DOMAIN-KEYWORD,gddns,DIRECT
+  - DOMAIN-KEYWORD,yusen6,DIRECT
+  - DOMAIN-SUFFIX,danmu.tty.mom,DIRECT
+  - DOMAIN-KEYWORD,fandai.cc.cd,DIRECT
+  - DOMAIN-SUFFIX,emby.taotu.ink,DIRECT
+  - DOMAIN-SUFFIX,emby.teawaya.com,🎥 Emby
+  - DOMAIN-SUFFIX,115.hohai.eu.org,🎥 Emby
+  - DOMAIN-SUFFIX,nay.007.us.kg,🎥 Emby
+  - DOMAIN-SUFFIX,us.aemby.de,🎥 Emby
+  - DOMAIN-SUFFIX,test.28.al,🎥 Emby
+  - DOMAIN-SUFFIX,bb.emby.edu.kg,🎥 Emby
+  - DOMAIN-SUFFIX,emby.di0.uk,🎥 Emby
+  - DOMAIN-SUFFIX,gemini.google.com,🚀 手动选择
+  - DOMAIN-SUFFIX,aistudio.google.com,🚀 手动选择
+  - DOMAIN-SUFFIX,generativelanguage.googleapis.com,🚀 手动选择
+  - DOMAIN-SUFFIX,accounts.google.com,🚀 手动选择
+  - DOMAIN-SUFFIX,gstatic.com,🚀 手动选择
+  - DOMAIN-SUFFIX,googleapis.com,🚀 手动选择
+  - DOMAIN-SUFFIX,googleusercontent.com,🚀 手动选择
