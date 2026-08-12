@@ -2,7 +2,42 @@
 
 个人维护的 **sing-box / Clash (Mihomo)** 分流规则集订阅仓库，规则为个人网络分流配置，可直接通过订阅链接拉取使用，随维护实时更新。
 
-## 规则集列表
+## 推荐：一条链接全搞定（all.yaml）
+
+所有分流规则（含策略组）已合并为**一个文件**，配置里只需一个 rule-providers + 一条引用。
+
+> 要求 **Mihomo / Clash.Meta 内核**（OpenClash 可切换内核为 Mihomo，Clash Party 默认为 Mihomo）。原版 Clash 内核不支持 classical 模式，请用下方"分文件方案"。
+
+### 订阅链接
+
+`https://cdn.jsdelivr.net/gh/LAOFENG543/ruleset@main/rules/all.yaml`
+
+### 配置方法
+
+`rule-providers:` 下加：
+
+```yaml
+rule-providers:
+  all:
+    type: http
+    behavior: classical
+    format: yaml
+    path: ./ruleset/all.yaml
+    url: https://cdn.jsdelivr.net/gh/LAOFENG543/ruleset@main/rules/all.yaml
+    interval: 86400
+```
+
+`rules:` 段替换为：
+
+```yaml
+rules:
+  - RULE-SET,all,🚀 手动选择
+  - MATCH,🚀 手动选择
+```
+
+规则命中后按文件内行内策略组（DIRECT / 🎥 Emby / 🚀 手动选择）分流，无需在 rules 里逐条配置。
+
+## 分文件方案（按策略组独立）
 
 | 规则集 | 格式 | 内容 | 用途 |
 |--------|------|------|------|
@@ -11,20 +46,9 @@
 | `direct-ipcidr` | yaml / json | 直连 IP / CIDR | DIRECT 直连 |
 | `emby-domain` | yaml / json | Emby 媒体服务器域名 | 🎥 Emby |
 
-## 订阅链接
+订阅链接：`https://cdn.jsdelivr.net/gh/LAOFENG543/ruleset@main/rules/<name>.yaml`（sing-box 用户用同名 `.json`）。
 
-`<name>` 替换为 `proxy-domain` / `direct-domain` / `direct-ipcidr` / `emby-domain`：
-
-| 方式 | 链接格式 |
-|------|----------|
-| jsDelivr CDN | `https://cdn.jsdelivr.net/gh/LAOFENG543/ruleset@main/rules/<name>.yaml` |
-| GitHub Raw | `https://raw.githubusercontent.com/LAOFENG543/ruleset/main/rules/<name>.yaml` |
-
-> 国内网络推荐优先使用 jsDelivr CDN。sing-box 用户使用同名 `.json` 文件（source 格式）。
-
-## Clash / Mihomo 使用示例
-
-### 1. 添加 rule-providers
+### 分文件方案配置示例
 
 ```yaml
 rule-providers:
@@ -35,7 +59,6 @@ rule-providers:
     path: ./ruleset/proxy-domain.yaml
     url: https://cdn.jsdelivr.net/gh/LAOFENG543/ruleset@main/rules/proxy-domain.yaml
     interval: 86400
-
   direct-domain:
     type: http
     behavior: domain
@@ -43,7 +66,6 @@ rule-providers:
     path: ./ruleset/direct-domain.yaml
     url: https://cdn.jsdelivr.net/gh/LAOFENG543/ruleset@main/rules/direct-domain.yaml
     interval: 86400
-
   direct-ipcidr:
     type: http
     behavior: ipcidr
@@ -51,7 +73,6 @@ rule-providers:
     path: ./ruleset/direct-ipcidr.yaml
     url: https://cdn.jsdelivr.net/gh/LAOFENG543/ruleset@main/rules/direct-ipcidr.yaml
     interval: 86400
-
   emby-domain:
     type: http
     behavior: domain
@@ -60,8 +81,6 @@ rule-providers:
     url: https://cdn.jsdelivr.net/gh/LAOFENG543/ruleset@main/rules/emby-domain.yaml
     interval: 86400
 ```
-
-### 2. 在 rules 中引用（注意顺序，从上到下匹配）
 
 ```yaml
 rules:
@@ -100,6 +119,10 @@ ruleset/
 ├── scripts/          # 规则生成/转换脚本（可选）
 └── README.md
 ```
+
+## 维护说明
+
+需要添加/修改规则时，直接更新对应 yaml 文件即可；客户端按 `interval: 86400`（24h）自动拉取，也可手动刷新。
 
 ## 免责声明
 
