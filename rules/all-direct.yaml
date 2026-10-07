@@ -1,0 +1,42 @@
+# 直连规则集（DIRECT）
+# 供 Mihomo rule-providers(behavior: classical) 使用
+# 注意：该模式下由 RULE-SET 行指定策略组，故此处不带策略组字段
+# 引用方式：- RULE-SET,all-direct,DIRECT
+payload:
+  - DOMAIN-KEYWORD,60256666
+  - DOMAIN-KEYWORD,hk-api.gptbest
+  - DOMAIN-SUFFIX,fandai.602568.xyz
+  - IP-CIDR,107.181.228.245/32
+  - DOMAIN-KEYWORD,fandai
+  - DOMAIN-SUFFIX,v2go.cc.cd
+  - DOMAIN-KEYWORD,emby-cm
+  - DOMAIN-KEYWORD,media.emos
+  - DOMAIN-KEYWORD,gy.emby
+  - DOMAIN-KEYWORD,mygcm
+  - DOMAIN-SUFFIX,emby.yun
+  - DOMAIN-SUFFIX,emby-cm.hohai
+  - DOMAIN-KEYWORD,qyneimeng
+  - DOMAIN-KEYWORD,66990000
+  - DOMAIN-SUFFIX,28.al
+  - DOMAIN-KEYWORD,wangjunqiang
+  - DOMAIN-KEYWORD,danmu
+  - DOMAIN-KEYWORD,liuuu
+  - DOMAIN-SUFFIX,laofengemby.cc.cd
+  - DOMAIN-KEYWORD,yusen
+  - IP-CIDR,51.83.100.187/32
+  - DOMAIN-SUFFIX,cmecloud.cn
+  - DOMAIN-SUFFIX,emos.033388.xyz
+  - DOMAIN-SUFFIX,88920.dpdns.org
+  - DOMAIN-SUFFIX,emby.medi4.org
+  - DOMAIN-SUFFIX,emby.beip.kdns.fr
+  - DOMAIN-KEYWORD,yx.emby-cm.ccwu.cc
+  - DOMAIN-SUFFIX,ea.eoos.top
+  - DOMAIN-KEYWORD,xiaoheixh
+  - DOMAIN-KEYWORD,gddns
+  - DOMAIN-KEYWORD,yusen6
+  - DOMAIN-SUFFIX,danmu.tty.mom
+  - DOMAIN-KEYWORD,fandai.cc.cd
+  - DOMAIN-SUFFIX,emby.taotu.ink
+  - DOMAIN-SUFFIX,xxxhei.cc.cd
+  - DOMAIN-SUFFIX,huangmin.cc.cd
+  - DOMAIN-SUFFIX,yuntv.de
