@@ -43,7 +43,7 @@ payload:
   - DOMAIN-SUFFIX,file.covh.eu.org,🎥 Emby
   - DOMAIN-SUFFIX,cf.aixj.de,🎥 Emby
   - DOMAIN-SUFFIX,88920.dpdns.org,DIRECT
-  - DOMAIN-SUFFIX,emby.medi4.org,🎥 Emby
+  - DOMAIN-SUFFIX,emby.medi4.org,DIRECT
   - DOMAIN-SUFFIX,gy.meowfly.de,🎥 Emby
   - DOMAIN-SUFFIX,ccdv.cc.cd,🎥 Emby
   - DOMAIN-SUFFIX,emby.beip.kdns.fr,DIRECT
@@ -51,12 +51,14 @@ payload:
   - DOMAIN-SUFFIX,fastboostcdn.com,🎥 Emby
   - DOMAIN-KEYWORD,yx.emby-cm.ccwu.cc,DIRECT
   - DOMAIN-SUFFIX,ea.eoos.top,DIRECT
-  - DOMAIN-KEYWORD,xiaohei10,DIRECT
+  - DOMAIN-KEYWORD,xiaoheixh,DIRECT
   - DOMAIN-KEYWORD,gddns,DIRECT
   - DOMAIN-KEYWORD,yusen6,DIRECT
   - DOMAIN-SUFFIX,danmu.tty.mom,DIRECT
   - DOMAIN-KEYWORD,fandai.cc.cd,DIRECT
   - DOMAIN-SUFFIX,emby.taotu.ink,DIRECT
+  - DOMAIN-SUFFIX,xxxhei.cc.cd,DIRECT
+  - DOMAIN-SUFFIX,huangmin.cc.cd,DIRECT
   - DOMAIN-SUFFIX,emby.teawaya.com,🎥 Emby
   - DOMAIN-SUFFIX,115.hohai.eu.org,🎥 Emby
   - DOMAIN-SUFFIX,nay.007.us.kg,🎥 Emby
@@ -64,6 +66,11 @@ payload:
   - DOMAIN-SUFFIX,test.28.al,🎥 Emby
   - DOMAIN-SUFFIX,bb.emby.edu.kg,🎥 Emby
   - DOMAIN-SUFFIX,emby.di0.uk,🎥 Emby
+  - DOMAIN-KEYWORD,pikpak,🎥 Emby
+  - DOMAIN-SUFFIX,emby101.origamiart.uk,🎥 Emby
+  - DOMAIN-SUFFIX,yuntv.de,DIRECT
+  - DOMAIN-SUFFIX,media.emby.pro,🎥 Emby
+  - DOMAIN-SUFFIX,cf.sfcj.org,🎥 Emby
   - DOMAIN-SUFFIX,gemini.google.com,🚀 手动选择
   - DOMAIN-SUFFIX,aistudio.google.com,🚀 手动选择
   - DOMAIN-SUFFIX,generativelanguage.googleapis.com,🚀 手动选择
